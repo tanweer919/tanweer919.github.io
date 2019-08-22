@@ -1,0 +1,17 @@
+{
+  "name": "Tanweer Portfolio",
+  "short_name": "Portfolio",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/ico",
+      "sizes": "144x144"
+    }
+  ],
+  "start_url": "/index.html",
+  "scope": "/",
+  "background_color": "#fff",
+  "theme_color": "#3f15b5",
+  "display": "standalone",
+  "description": "Portfolio app built in VueJs"
+}
