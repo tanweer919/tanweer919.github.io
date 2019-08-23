@@ -1,6 +1,7 @@
-self.addEventListener('install', function(event) {});
-self.addEventListener('activate', function(event) {
-  return self.clients.claim();
+self.addEventListener('install', function(event) {
+  console.log("Service Worked installed");
 });
-self.addEventListener('fetch', function(event) {
+self.addEventListener('activate', function(event) {
+  console.log("Service worker activated")
+  return self.clients.claim();
 });
