@@ -3,8 +3,8 @@
   "short_name": "Portfolio",
   "icons": [
     {
-      "src": "/favicon.ico",
-      "type": "image/x-icon",
+      "src": "/img/apple-icon-144x144.png",
+      "type": "image/png",
       "sizes": "144x144"
     }
   ],
